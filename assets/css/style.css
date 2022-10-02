@@ -1,0 +1,295 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    width: 100%;
+    height: 110px;
+    position: sticky;
+    top: 0;
+}
+header{
+    background: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/banner-4.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+nav h2{
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+nav h2:hover{
+    color: red;
+}
+nav i{
+    font-size: 25px;
+}
+nav a{
+    color: white;
+}
+header h2{
+    color: #ff2400;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: lighter;
+}
+header h1{
+    color: white;
+    font-size: 60px;
+}
+header p{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+.h-ml{
+    margin-left: 180px;
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.btn-1{
+    background-color: white;
+}
+.btn-2{
+    background-color: #ff4040;
+    color: white;
+    margin-left: 10px;
+}
+.btn-1:hover{
+    background-color: #bdbebd;
+}
+.btn-2:hover{
+    background-color: red;
+}
+#about{
+    height: 55vh;
+    margin: 120px 120px;
+    display: flex;
+}
+.submenu{
+    position: absolute;
+}
+.submenu:hover{
+    display: inline;
+}
+#about h2{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+#about h2 span{
+    color: #ff4040;
+    font-size: 35px;
+    font-weight: bold;
+}
+#about h1{
+    color: #ff4040;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#about p{
+    color: gray;
+    font-size: 20px;
+}
+.mar-left-1{
+    margin-left: 50px;
+}
+.mar-left-2{
+    margin-left: 25px;
+}
+#about span{
+    color: gray;
+    font-size: 20px;
+    font-style: italic;
+}
+.color-green{
+    color: green;
+    font-size: 30px;
+}
+.color-white{
+    color: white;
+}
+.color-red{
+    color: #ff4040;
+}
+.image{
+    width: 500px;
+    height: 500px;
+}
+#search{
+    width: 100%;
+    height: 80vh;
+    background: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-search.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#search span{
+    font-size: 40px;
+}
+.input{
+    width: 22%;
+    height: 45px;
+    background-color: #d3d3d3;
+    border: 1px solid white;
+}
+.input-2{
+    height: 45px;
+    width: 10%;
+    background-color: #d3d3d3;
+    border: 1px solid white;
+}
+.i-ml{
+    margin-left: 15px;
+}
+.i-ml-2{
+    margin-left: 27px;
+}
+.btn-ml{
+    margin-left: 210px;
+}
+#property{
+    width: 100%;
+    height: 100vh;
+}
+.color-gray{
+    color: gray;
+}
+#property span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sizep{
+    font-size: 20px;
+}
+.item{
+    width: 25%;
+    height: 180px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+.item h2{
+    font-size: 25px;
+}
+.item small{
+    color: gray;
+    font-size: 15px;
+}
+.item p{
+    color: gray;
+    font-size: 18px;
+}
+.pict-ml-1{
+    margin-left: 120px;
+}
+.pict-ml-3{
+    margin-right: 100px;
+}
+.bg-gray{
+    background-color: #e9e9e9;
+}
+.bg-white{
+    background-color: white;
+}
+#us{
+    width: 100%;
+    height: 80vh;
+    background: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/paralax-half.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color{
+    width: 25%;
+    height: 312.5px;
+    background-color: rgba(237, 42, 40, 0.9);
+}
+.d-flex{
+    display: flex;
+}
+.icon{
+    font-size: 80px;
+    color: white;
+}
+.title-text{
+    font-size: 30px;
+    color: white;
+}
+.subtitle-text{
+    font-size: 20px;
+    color: white;
+}
+#best{
+    width: 100%;
+    height: 100vh;
+}
+#best span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pictures{
+    width: 45%;
+}
+.margin-left{
+    margin-left: 20px;
+}
+#great{
+    width: 100%;
+    height: 80vh;
+}
+.bg{
+    background: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/bg-text.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-size{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a-c{
+    text-align: center
+}
+.pad-top{
+    padding-top: 250px;
+}
+.btn-top{
+    padding-top: 30px;
+}
+.btn-end{
+    height: 70px; 
+    width: 240px;
+    font-size: 20px;
+    color: white;
+    background-color: #ff4040;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.btn-end:hover{
+    background-color: #ff2400;
+}
+#contact{
+    background-color: #ff4040;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+.i-size{
+    font-size: 80px;
+    padding-left: 370px;
+}
+.t-size{
+    padding-left: 340px;
+    text-align: center;
+}

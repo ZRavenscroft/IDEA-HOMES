@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    outline: none;
+    box-sizing: border-box;
+	font-size: 100%;
+	font-family: sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+input, button, textarea{
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.p-fixed{
+    position: fixed;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.p-sticky{
+    position: sticky;
+}
+.w-100{
+    width: 100%;
+}
+.w-75{
+    width: 75%;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 1.5rem;
+}
+.p-3{
+    padding: 2.5rem;
+}
+.p-4{
+    padding: 3rem;
+}
+.p-5{
+    padding: 4rem;
+}
+.pt-1{
+    padding-top: 200px;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 1.5rem;
+}
+.mt-3{
+    margin-top: 2.5rem;
+}
+.mt-4{
+    margin-top: 3rem;
+}
+.mt-5{
+    margin-top: 4rem;
+}
+.mt-6{
+    margin-top: 7rem;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mb-2{
+    margin-bottom: 1.5rem;
+}
+.mb-3{
+    margin-bottom: 2.5rem;
+}
+.mb-4{
+    margin-bottom: 3rem;
+}
+.mb-5{
+    margin-bottom: 4rem;
+}
+.m-a{
+    margin: auto;
+}
+.text-bold{
+    font-weight: bold;
+}
+.display-6{
+    font-size: 28px;
+}
+.display-5{
+    font-size: 36px;
+}
+.display-4{
+    font-size: 18px;
+}
+.p-l-t{
+    padding-left: 120px;
+    padding-top: 100px;
+}
